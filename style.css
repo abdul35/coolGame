@@ -1,0 +1,25 @@
+body {
+	background-color: black;
+}
+
+.board {
+	max-width: 75%;
+	background-color: lightgoldenrodyellow;
+	height: 555px;
+	margin: auto;
+	padding: 15px;
+	position: relative;
+}
+
+.hero {
+	height: 100px;
+	width: 60px;
+	background-color: teal;
+	position: absolute;
+	bottom: 15px;
+	transform: translate(15px);
+	-webkit-transform: translate(15px);
+	-moz-transform: translate(15px);
+	-ms-transform: translate(15px);
+	-o-transform: translate(15px);
+}
